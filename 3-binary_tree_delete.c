@@ -13,7 +13,7 @@
  */
 void binary_tree_delete(binary_tree_t *tree)
 {
-	if (tree == NULL)
+	if (tree != NULL)
 	{
 		/* Eliminar los subárboles izquierdo y derecho recursivamente */
 		binary_tree_delete(tree->left);
